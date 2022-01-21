@@ -15,7 +15,7 @@
 <body>
     <!-- header start  -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -28,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#Shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -46,7 +46,7 @@
             </div>
         </nav>
         <!-- image slider -->
-        <section class="container">
+        <section class="container" id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -146,7 +146,7 @@
 
         <!-- Shoes section start  -->
 
-        <section class="container">
+        <section class="container" id="Shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
+                <div class="col">
                     <div class="card border-0 shadow-lg p-3 mb-5 h-100 ">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -203,7 +203,7 @@
         <!-- Shoes section end -->
 
         <!-- Backpack section start  -->
-        <section class="container mt-5 ">
+        <section class="container mt-5" id="Backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -259,8 +259,8 @@
         </section>
         <!-- Backpack section end -->
 
-        <!-- Subscrove section start -->
-        <section style="height: 300px;"
+        <!-- Subscribe section start -->
+        <section id="Subscribe" style="height: 300px;"
             class="container d-flex justify-content-center bg-info align-items-center rounded-3 mt-5 mb-5">
 
             <div>
@@ -274,7 +274,7 @@
 
         </section>
 
-        <!-- Subscrove section end -->
+        <!-- Subscribe section end -->
 
 
     </main>
